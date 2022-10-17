@@ -6,7 +6,7 @@ const app = express()
 app.use(bodyParser.json())
 app.set('view engine', 'ejs')
 app.use(express.static('public'))
-app.get('/main', (req,res) => {
+app.get('/', (req,res) => {
     res.render('main')
 })
 app.use('/api', router)
