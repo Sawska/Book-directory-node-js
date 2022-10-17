@@ -1,7 +1,7 @@
 const { response } = require('express')
 const express = require('express')
 const Mongodb = require('mongodb').MongoClient
-const uri = 'mongodb+srv://splay1494:FptQEfMN3l7oEyXe@cluster0.6dvymxk.mongodb.net/?retryWrites=true&w=majority'
+const uri = 'mongodb+srv://<name>:<password>@cluster0.6dvymxk.mongodb.net/?retryWrites=true&w=majority'
 const router = express.Router()
 
 
