@@ -1,0 +1,5 @@
+ function hi() {
+
+	return 'hi'
+
+}
