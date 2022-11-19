@@ -1,5 +1,0 @@
- function hi() {
-
-	return 'hi'
-
-}
